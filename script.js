@@ -7,9 +7,13 @@ const textoResultado= document.querySelector(".texto-resultado");
 const perguntas = [
   {
       enunciado:"você tem um sono bom?"
-    alternativas:[
-    "sim";
-     "não";
+    alternativas: [
+  {
+    texto: "sim";
+     afirmação: "não";
+}
+{
+  texto: "não"
 ]
 },
   {
@@ -27,17 +31,17 @@ const perguntas = [
 ]
 },
   {
-      enunciado:""
+      enunciado:"você toma água frequente?"
     alternativas:[
-    "alternativa 1";
-     "alternativa 2";
+    "sim";
+     "não";
 ]
 },
   {
-      enunciado:"perguntas 5"
+      enunciado:"você vai no medico frequentemente?"
     alternativas:[
-    "alternativa 1";
-     "alternativa 2";
+    "sim";
+     "não";
 ]
 },
 ];
