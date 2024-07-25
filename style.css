@@ -24,3 +24,17 @@ body{
 h1{
     color: var(--cor-destaque);
 }
+
+button{
+    backgroud-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border-radius:15px;
+    border: none;
+    podding:15px;
+    transition:backgroud-color 0.3s;
+}
+
+button:hover {
+backgroud-color: var(--cor-destaque);
+    cor: var(--cor-principal);
+}
